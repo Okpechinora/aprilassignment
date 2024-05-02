@@ -1,35 +1,51 @@
-body{background-color: hsl(0, 0%, 8%);
+body{
+    background-color: hsl(0, 0%, 8%);
     font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 400, 600, 700;
   font-style: normal;
   font-variation-settings:
-width: 600px;}
+  "slnt" 0;
+}
 .container{
-    width:60%;
-    height:50%;
-    background-color: hsl(0%, 0%, 12%);
+    width: 320px;
+    height: auto;
+    background-color: hsl(0, 0%, 12%);
     border: none;
     border-radius: 10px;
     box-sizing: border-box;
-    padding: 20%;
+    padding: 20px;
     margin: 0 auto;
+    flex-wrap: wrap;
  }
-h5{color:hsl(75, 94%, 57%);
-text-align: center;}
-p{color: hsl(0, 0%, 100%);
+h5{
+    color:hsl(75, 94%, 57%);
+    text-align: center;
+    display: block;
+    justify-content: center;
+}
+p{
+    color: hsl(0, 0%, 100%);
     font-size: 14px;
     opacity: 0.4;
-text-align: center;}
-h1{color: hsl(0, 0%, 100%);
-text-align: center;}
-.box{
     display: block;
+    justify-content: center;
+text-align: center;}
+h1{
+    color: hsl(0, 0%, 100%);
+text-align: center;
+display: block;
+justify-content: center;
+}
+.box{
+    display:flex;
+    justify-content: center;
     width: 100%;
     border: none;
     border-radius: 10px;
     background-color: hsl(0, 0%, 20%);
     padding: 14px;
+    margin: 0 auto;
     cursor: pointer;
 }
 .box:hover{
